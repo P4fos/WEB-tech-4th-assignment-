@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+.train-page {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f0f4f3;
+  color: #16302B;
+}
+
+.train-card {
+  border: none;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(22, 48, 43, 0.12);
+  background-color: #ffffff;
+}
+
+.train-header {
+  background-color: #0F6B5F;
+  color: #ffffff;
+}
+
+.trip-toggle .btn-outline-teal {
+  color: #16302B;
+  border-color: #0F6B5F;
+  font-weight: 500;
+  padding: 0.5rem 1.25rem;
+}
+
+.trip-toggle .btn-check:checked + .btn-outline-teal {
+  background-color: #0F6B5F;
+  border-color: #0F6B5F;
+  color: #ffffff;
+}
+
+.trip-toggle .btn-outline-teal:first-of-type {
+  border-top-left-radius: 50rem;
+  border-bottom-left-radius: 50rem;
+}
+
+.trip-toggle .btn-outline-teal:last-of-type {
+  border-top-right-radius: 50rem;
+  border-bottom-right-radius: 50rem;
+}
+
+.train-page .form-control,
+.train-page .form-select {
+  background-color: #f4f5f7;
+  border: 1px solid #dfe3e8;
+  border-radius: 0.75rem;
+  color: #16302B;
+}
+
+.train-page .form-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #16302B;
+}
+
+.phone-prefix {
+  background-color: #0F6B5F;
+  color: #ffffff;
+  border: 1px solid #0F6B5F;
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+  font-weight: 600;
+}
+
+.train-page .form-check-input:checked {
+  background-color: #0F6B5F;
+  border-color: #0F6B5F;
+}
+
+.btn-clear {
+  border: 1.5px solid #16302B;
+  color: #16302B;
+  background-color: transparent;
+  border-radius: 50rem;
+  font-weight: 600;
+  padding: 0.6rem 1.75rem;
+}
+
+.btn-find {
+  background-color: #F2A93B;
+  border: 1.5px solid #F2A93B;
+  color: #16302B;
+  border-radius: 50rem;
+  font-weight: 700;
+  padding: 0.6rem 2rem;
+}
+
+.hack-form .form-control:user-invalid,
+.hack-form .form-select:user-invalid,
+.hack-form .form-check-input:user-invalid {
+  border-color: #dc3545;
+}
+
+.hack-form .form-control:user-valid,
+.hack-form .form-select:user-valid,
+.hack-form .form-check-input:user-valid {
+  border-color: #198754;
+}
+
+.hack-form .form-control:user-invalid ~ .invalid-feedback,
+.hack-form .form-select:user-invalid ~ .invalid-feedback,
+.hack-form .form-check-input:user-invalid ~ .invalid-feedback {
+  display: block;
+}
